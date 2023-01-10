@@ -289,4 +289,7 @@ replace (
 	k8s.io/mount-utils => k8s.io/mount-utils v0.24.2
 	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.24.2
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.24.2
+
+	// Use onomondo fork of gitops-engine
+	github.com/argoproj/gitops-engine => github.com/onomondo/gitops-engine v0.7.1-917f5a0-onomondo
 )
