@@ -257,6 +257,9 @@ require (
 )
 
 replace (
+	// Use onomondo fork of gitops-engine
+	github.com/argoproj/gitops-engine => github.com/onomondo/gitops-engine v0.7.1-0.onomondo-proxy-917f5a0f16d5
+
 	// https://github.com/golang/go/issues/33546#issuecomment-519656923
 	github.com/go-check/check => github.com/go-check/check v0.0.0-20180628173108-788fd7840127
 
