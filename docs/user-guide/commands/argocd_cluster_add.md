@@ -25,8 +25,8 @@ argocd cluster add CONTEXT [flags]
       --name string                        Overwrite the cluster name
       --namespace stringArray              List of namespaces which are allowed to manage
       --project string                     project of the cluster
-      --service-account string             System namespace service account to use for kubernetes resource management. If not set then default "argocd-manager" SA will be created
       --proxy-url string                   use proxy to connect cluster
+      --service-account string             System namespace service account to use for kubernetes resource management. If not set then default "argocd-manager" SA will be created
       --shard int                          Cluster shard number; inferred from hostname if not set (default -1)
       --system-namespace string            Use different system namespace (default "kube-system")
       --upsert                             Override an existing cluster with the same name even if the spec differs
@@ -58,4 +58,5 @@ argocd cluster add CONTEXT [flags]
 
 ### SEE ALSO
 
-- [argocd cluster](argocd_cluster.md) - Manage cluster credentials
+* [argocd cluster](argocd_cluster.md)	 - Manage cluster credentials
+
